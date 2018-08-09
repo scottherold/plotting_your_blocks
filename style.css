@@ -1,0 +1,54 @@
+* { /* this is your compatability reset */
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    border: 0 none;
+    outline: 1px red;
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper{
+ width: 950px;
+ background-color: silver;
+ margin: 0px auto;
+ padding: 20px;
+}
+#header{
+ height: 150px;
+ width: 950px;
+ display: block;
+ background-color: green;
+ margin: 0px 0px 20px 0px;
+}
+#navigation{
+ min-height: 300px;
+ width: 200px;
+ background-color: blue;
+ display: inline-block;
+ margin: 0px 10px 0px 0px
+}
+#main_content{
+ min-height: 400px;
+ width: 696px;
+ background-color: red;
+ display: inline-block;
+ margin: 0px 0px 0px 10px;
+ padding: 15px;
+ vertical-align: top;
+}
+.subcontents{
+ min-height: 200px;
+ width: 210px;
+ background-color: yellow;
+ display: inline-block;
+ margin: auto 10px 10px 0px;
+}
+#advertisement{
+ min-height: 120px;
+ width: 660px;
+ background-color: purple;
+ margin: 20px 0px 0px 0px;
+}
